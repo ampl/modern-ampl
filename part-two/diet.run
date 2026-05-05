@@ -1,0 +1,9 @@
+reset;
+model diet.mod;
+
+data diet.dat;
+
+option solver highs;
+solve;
+
+display Buy;
